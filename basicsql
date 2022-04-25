@@ -1,0 +1,32 @@
+-- comparison numerators on numerical data --
+Equal to	                =
+Not equal to	            <> or !=
+Greater than	            >
+Less than	                <
+Greater than or equal to	>=
+Less than or equal to	    <=
+
+-- SQL LIKE --
+The LIKE operator allows you to match similar values / values that look alike rather than the exact values.
+% is typically used to represent any character or a set of characters. 
+
+/* Write a query that returns all rows for which the first artist listed in the group has a name that begins with "DJ". */
+-- SELECT *
+-- FROM tutorial.billboard_top_100_year_end
+-- WHERE "group" ILIKE 'DJ%'
+
+-- SQL IN --
+/* SQL IN is used to return all a specific list of values in your results. */
+-- Write a query that shows all of the entries for Elvis and M.C. Hammer.--
+-- SELECT *
+-- FROM tutorial.billboard_top_100_year_end
+-- WHERE "group" IN ('M.C. Hammer', 'Hammer', 'Elvis Presley')
+
+-- SQL AND --
+/* SQL AND is a logical operator in SQL that allows you to select only rows that satisfy two conditions. */
+
+-- SQL NOT --
+/* SQL NOT is a logical operator that you can put before any conditional statement to select rows for which that statement is false / exclude rows for which the statement is true. */
+
+-- Use " " to identify column name. --
+-- Use ' ' to identify cell name (not column). --
