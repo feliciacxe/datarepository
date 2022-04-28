@@ -83,3 +83,9 @@ ON players.school_name = teams.school_name /* Common columns / how the tables ar
 -- SQL RIGHT JOIN : Returns only unmatched rows from the right table / Table 2. --
 -- SQL FULL OUTER JOIN : Returns all rows (matched and unmatched) from both tables. --
 
+-- SQL JOIN allow you to combine two datasets side-by-side, but UNION allows you to stack one dataset on top of the other. --
+-- SQL UNION is used to append data from two tables. Rules to comply before using UNION:
+-- SQL has strict rules for appending data:
+-- 1) Both tables must have the same number of columns
+-- 2) The columns must have the same data types in the same order as the first table
+
